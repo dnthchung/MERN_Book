@@ -33,7 +33,7 @@ app.post("/books", async (req, res) => {
   }
 });
 
-//Route get all book from db
+//Route get all book from db - 14:21
 app.get("/books", async (request, response) => {
   try {
     const books = await Book.find({});

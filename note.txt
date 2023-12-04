@@ -7,3 +7,7 @@ to :"start":"node index.js","dev":"nodemon index.js"
 ==> REMEMBER CONFIG MUST HAVE : .js
 - server: npm run dev
 
+
+- create mongodb
+- npm i mongoose
+- 

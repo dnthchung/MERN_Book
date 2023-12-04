@@ -1,0 +1,9 @@
+- add type: module in package,json
+- npm i express nodemon
+- replace "test": "echo \"Error: no test specified\" && exit 1"
+to :"start":"node index.js","dev":"nodemon index.js"
+- +index.js (server)
+- import { PORT } from "./config.js";
+==> REMEMBER CONFIG MUST HAVE : .js
+- server: npm run dev
+

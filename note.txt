@@ -10,4 +10,10 @@ to :"start":"node index.js","dev":"nodemon index.js"
 
 - create mongodb
 - npm i mongoose
+- move this to mongoose then(), if want app run only
+  if db connection is successful
+    app.listen(PORT, () => {
+    console.log("===== CHECK STATUS: PORT =====");
+    console.log(`GOOD: App is listening to PORT: ${PORT}`);
+    });
 - 

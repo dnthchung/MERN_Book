@@ -16,4 +16,8 @@ to :"start":"node index.js","dev":"nodemon index.js"
     console.log("===== CHECK STATUS: PORT =====");
     console.log(`GOOD: App is listening to PORT: ${PORT}`);
     });
-- 
+
+- in bookRoute, dont need 'book' in '/books/:id'
+  delete 'books' 
+
+  

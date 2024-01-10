@@ -1,5 +1,7 @@
 import React from "react";
 
-export const DeleteBook = () => {
+function DeleteBook() {
   return <div>DeleteBook</div>;
-};
+}
+
+export default DeleteBook;

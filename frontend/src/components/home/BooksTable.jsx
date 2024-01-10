@@ -4,6 +4,7 @@ import { AiOutlineEdit } from "react-icons/ai";
 import { BsInfoCircle } from "react-icons/bs";
 import { MdOutlineAddBox, MdOutlineDelete } from "react-icons/md";
 
+//nhớ truyền data book
 const BooksTable = ({ books }) => {
   return (
     <table className="w-full border-separate border-spacing-2">

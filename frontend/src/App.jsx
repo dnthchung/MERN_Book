@@ -16,7 +16,6 @@ function App() {
         <Route path="/books/edit/:id" element={<EditBook />} />
         <Route path="/books/delete/:id" element={<DeleteBook />} />
       </Routes>
-      <div className="bg-red-400 text-white">haha</div>
     </>
   );
 }

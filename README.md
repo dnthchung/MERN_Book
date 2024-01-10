@@ -1,1 +1,2 @@
-# Book management - MERN 
+## Simple book management - MERN 
+## Tailwind - mongodb - expressjs - reactjs - nodejs

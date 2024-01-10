@@ -1,3 +1,4 @@
+import BookSingleCard from "./BookSingleCard";
 //nhớ truyền data book
 const BooksCard = ({ books }) => {
   return (
